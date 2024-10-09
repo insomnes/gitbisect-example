@@ -8,3 +8,7 @@ def remove_duplicates(lst: list) -> list:
         result.append(item)
 
     return result
+
+
+def add_elements(lst1: list, lst2: list) -> list:
+    return lst1 + lst2
