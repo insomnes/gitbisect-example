@@ -22,3 +22,8 @@ def remove_element(lst: list, item) -> list:
 
 def remove_elements(lst1: list, lst2: list) -> list:
     return [x for x in lst1 if x not in lst2]
+
+def remove_elements_wo_dups(lst1: list, lst2: list) -> list:
+    return remove_duplicates(
+        remove_elements(lst1, lst2)
+    )
