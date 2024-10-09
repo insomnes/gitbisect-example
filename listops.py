@@ -12,3 +12,9 @@ def remove_duplicates(lst: list) -> list:
 
 def add_elements(lst1: list, lst2: list) -> list:
     return lst1 + lst2
+
+
+def add_elements_wo_dups(lst1: list, lst2: list) -> list:
+    return remove_duplicates(
+        add_elements(lst1, lst2)
+    )
