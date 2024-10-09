@@ -27,3 +27,7 @@ def remove_elements_wo_dups(lst1: list, lst2: list) -> list:
     return remove_duplicates(
         remove_elements(lst1, lst2)
     )
+
+
+def get_length(lst: list) -> int:
+    return len(lst)
