@@ -1,6 +1,7 @@
 def remove_duplicates(lst: list) -> list:
     return list(set(lst))
 
+
 def add_elements(lst1: list, lst2: list) -> list:
     return lst1 + lst2
 
